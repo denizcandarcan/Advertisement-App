@@ -1764,6 +1764,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "DD.AdvertisementApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DD.AdvertisementApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DD.AdvertisementApp.Common.dll": {}
+        }
+      },
       "DD.AdvertisementApp.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6042,6 +6052,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "DD.AdvertisementApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../DD.AdvertisementApp.Common/DD.AdvertisementApp.Common.csproj",
+      "msbuildProject": "../DD.AdvertisementApp.Common/DD.AdvertisementApp.Common.csproj"
+    },
     "DD.AdvertisementApp.Entities/1.0.0": {
       "type": "project",
       "path": "../DD.AdvertisementApp.Entities/DD.AdvertisementApp.Entities.csproj",
@@ -6050,6 +6065,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DD.AdvertisementApp.Common >= 1.0.0",
       "DD.AdvertisementApp.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
@@ -6088,6 +6104,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\dargy\\source\\repos\\DD.AdvertisementApp\\DD.AdvertisementApp.Common\\DD.AdvertisementApp.Common.csproj": {
+              "projectPath": "C:\\Users\\dargy\\source\\repos\\DD.AdvertisementApp\\DD.AdvertisementApp.Common\\DD.AdvertisementApp.Common.csproj"
+            },
             "C:\\Users\\dargy\\source\\repos\\DD.AdvertisementApp\\DD.AdvertisementApp.Entities\\DD.AdvertisementApp.Entities.csproj": {
               "projectPath": "C:\\Users\\dargy\\source\\repos\\DD.AdvertisementApp\\DD.AdvertisementApp.Entities\\DD.AdvertisementApp.Entities.csproj"
             }
